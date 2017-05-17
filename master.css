@@ -515,13 +515,14 @@ header {
     #article .wrap-article-content .article-slide {
       transition: all 0.4s;
       cursor: pointer;
-      text-align: left; }
+      text-align: left;
+      z-index: 1; }
       #article .wrap-article-content .article-slide:hover {
-        background-color: rgba(55, 179, 73, 0.7);
-        z-index: 1; }
+        background-color: rgba(55, 179, 73, 0.7); }
       #article .wrap-article-content .article-slide img {
         width: 100%;
-        z-index: -1; }
+        z-index: -1;
+        position: relative; }
       #article .wrap-article-content .article-slide p {
         position: absolute;
         bottom: 0;
